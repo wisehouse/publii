@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>HAUS</title>
-    <link href="https://wisehouse.github.io/feed.xml" rel="self" />
-    <link href="https://wisehouse.github.io" />
+    <link href="https://publii.wisehouse.kr/feed.xml" rel="self" />
+    <link href="https://publii.wisehouse.kr" />
     <updated>2022-08-04T00:32:49+09:00</updated>
     <author>
         <name>Jung, Chul Woo</name>
     </author>
-    <id>https://wisehouse.github.io</id>
+    <id>https://publii.wisehouse.kr</id>
 
     <entry>
         <title>엔터프라이즈 애플리케이션 아키텍처 패턴</title>
         <author>
             <name>Jung, Chul Woo</name>
         </author>
-        <link href="https://wisehouse.github.io/enteopeuraijeu-aepeulrikeisyeon-akitegceo-paeteon.html"/>
-        <id>https://wisehouse.github.io/enteopeuraijeu-aepeulrikeisyeon-akitegceo-paeteon.html</id>
+        <link href="https://publii.wisehouse.kr/enteopeuraijeu-aepeulrikeisyeon-akitegceo-paeteon/"/>
+        <id>https://publii.wisehouse.kr/enteopeuraijeu-aepeulrikeisyeon-akitegceo-paeteon/</id>
             <category term="PoEAA"/>
             <category term="Martin Fowler"/>
 

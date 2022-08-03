@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://wisehouse.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://publii.wisehouse.kr/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://wisehouse.github.io/</loc>
+<loc>https://publii.wisehouse.kr/</loc>
 </url>
 <url>
-<loc>https://wisehouse.github.io/enteopeuraijeu-aepeulrikeisyeon-akitegceo-paeteon.html</loc>
+<loc>https://publii.wisehouse.kr/enteopeuraijeu-aepeulrikeisyeon-akitegceo-paeteon/</loc>
 <lastmod>2022-08-04T00:32:49+09:00</lastmod>
 </url>
 </urlset>
