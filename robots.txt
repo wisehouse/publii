@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://wisehouse.github.io/sitemap.xml
