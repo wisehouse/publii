@@ -3,10 +3,45 @@
     <title>HAUS</title>
     <link href="https://publii.wisehouse.kr/feed.xml" rel="self" />
     <link href="https://publii.wisehouse.kr" />
-    <updated>1970-01-01T09:00:00+09:00</updated>
+    <updated>2022-08-23T09:49:03+09:00</updated>
     <author>
         <name>Jung, Chul Woo</name>
     </author>
     <id>https://publii.wisehouse.kr</id>
 
+    <entry>
+        <title>Failed to start bean &#x27;documentationPluginsBootstrapper&#x27;; nested exception is java.lang.NullPointerException</title>
+        <author>
+            <name>Jung, Chul Woo</name>
+        </author>
+        <link href="https://publii.wisehouse.kr/failed-to-start-bean-documentationpluginsbootstrapper-nested-exception-is-javalangnullpointerexception/"/>
+        <id>https://publii.wisehouse.kr/failed-to-start-bean-documentationpluginsbootstrapper-nested-exception-is-javalangnullpointerexception/</id>
+            <category term="Troubleshooting"/>
+            <category term="Swagger"/>
+            <category term="Spring"/>
+
+        <updated>2022-08-23T09:49:03+09:00</updated>
+            <summary>
+                <![CDATA[
+                    스프링 프레임워크에 Swagger를 적용하려고 하면 아래와 같은 오류가 발생한다. Failed to start bean &#39;documentationPluginsBootstrapper&#39;; nested exception is java.lang.NullPointerException 스프링의 기본 경로 매칭 전략(pathmatch strategy)과 충돌이 생겨서 발생하는 오류 같다. application.yml이나 application.properties에 아래 내용을 추가하면 해결된다. spring.mvc.pathmatch.matching-strategy=ant_path_matcher ant_path_matcher를 사용하지 않는 경우는 어떻게 될까? 참고자료 https://goyunji.tistory.com/137
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>스프링 프레임워크에 Swagger를 적용하려고 하면 아래와 같은 오류가 발생한다.</p>
+<pre><code>Failed to start bean &#39;documentationPluginsBootstrapper&#39;; nested exception is java.lang.NullPointerException
+</code></pre>
+<p>스프링의 기본 경로 매칭 전략(pathmatch strategy)과 충돌이 생겨서 발생하는 오류 같다.</p>
+<p>application.yml이나 application.properties에 아래 내용을 추가하면 해결된다.</p>
+<pre><code>spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+</code></pre>
+<p><code>ant_path_matcher</code>를 사용하지 않는 경우는 어떻게 될까?</p>
+<h2 id="참고자료">참고자료</h2>
+<ul>
+<li><a href="https://goyunji.tistory.com/137">https://goyunji.tistory.com/137</a></li>
+</ul>
+
+            ]]>
+        </content>
+    </entry>
 </feed>

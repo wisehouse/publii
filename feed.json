@@ -9,5 +9,22 @@
         "name": "Jung, Chul Woo"
     },
     "items": [
+        {
+            "id": "https://publii.wisehouse.kr/failed-to-start-bean-documentationpluginsbootstrapper-nested-exception-is-javalangnullpointerexception/",
+            "url": "https://publii.wisehouse.kr/failed-to-start-bean-documentationpluginsbootstrapper-nested-exception-is-javalangnullpointerexception/",
+            "title": "Failed to start bean &#x27;documentationPluginsBootstrapper&#x27;; nested exception is java.lang.NullPointerException",
+            "summary": "스프링 프레임워크에 Swagger를 적용하려고 하면 아래와 같은 오류가 발생한다. Failed to start bean &#39;documentationPluginsBootstrapper&#39;; nested exception is java.lang.NullPointerException 스프링의 기본 경로 매칭 전략(pathmatch strategy)과 충돌이 생겨서 발생하는 오류 같다. application.yml이나 application.properties에 아래 내용을 추가하면 해결된다. spring.mvc.pathmatch.matching-strategy=ant_path_matcher ant_path_matcher를 사용하지 않는 경우는 어떻게 될까? 참고자료 https://goyunji.tistory.com/137",
+            "content_html": "<p>스프링 프레임워크에 Swagger를 적용하려고 하면 아래와 같은 오류가 발생한다.</p>\n<pre><code>Failed to start bean &#39;documentationPluginsBootstrapper&#39;; nested exception is java.lang.NullPointerException\n</code></pre>\n<p>스프링의 기본 경로 매칭 전략(pathmatch strategy)과 충돌이 생겨서 발생하는 오류 같다.</p>\n<p>application.yml이나 application.properties에 아래 내용을 추가하면 해결된다.</p>\n<pre><code>spring.mvc.pathmatch.matching-strategy=ant_path_matcher\n</code></pre>\n<p><code>ant_path_matcher</code>를 사용하지 않는 경우는 어떻게 될까?</p>\n<h2 id=\"참고자료\">참고자료</h2>\n<ul>\n<li><a href=\"https://goyunji.tistory.com/137\">https://goyunji.tistory.com/137</a></li>\n</ul>\n",
+            "author": {
+                "name": "Jung, Chul Woo"
+            },
+            "tags": [
+                   "Troubleshooting",
+                   "Swagger",
+                   "Spring"
+            ],
+            "date_published": "2022-08-23T09:49:03+09:00",
+            "date_modified": "2022-08-23T09:49:03+09:00"
+        }
     ]
 }
